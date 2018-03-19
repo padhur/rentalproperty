@@ -1,7 +1,7 @@
 # rentalproperty
 Android Application based on Kotlin to list the rental homes and its details
 
-Which uses below languages,desgin pattern,framework and libraries.
+Which uses below languages,desgin pattern,framework and libraries.\n
 1.Written in Kotlin
 2.Follows MVVM pattern
 3.Uses Dagger2 for DI
