@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/large_margin">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginBottom="@dimen/large_margin"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:src="@drawable/profileimage_placeholder"
+            app:layout_constraintEnd_toEndOf="@+id/name"
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toTopOf="@+id/title" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:layout_marginRight="@dimen/large_margin"
+            android:layout_marginStart="@dimen/large_margin"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:text="name"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/second_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_image"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:layout_marginStart="@dimen/large_margin"
+            android:text="Title"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="?attr/textAppearanceListItem"
+            app:layout_constraintBottom_toTopOf="@+id/address_1"
+            app:layout_constraintEnd_toStartOf="@+id/name"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/photo" />
+
+        <TextView
+            android:id="@+id/address_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:text="address 1"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/second_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/suburb"
+            app:layout_constraintEnd_toEndOf="@+id/title"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@+id/title"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <TextView
+            android:id="@+id/suburb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/large_margin"
+            android:text="suburb"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/second_text_size"
+            app:layout_constraintEnd_toEndOf="@+id/title"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@+id/title"
+            app:layout_constraintTop_toBottomOf="@+id/address_1" />
+
+        <TextView
+            android:id="@+id/bedroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/small_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:text="4"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="@dimen/second_text_size"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@+id/title"
+            app:layout_constraintTop_toBottomOf="@+id/suburb" />
+
+        <ImageView
+            android:id="@+id/bedroom_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/medium_margin"
+            android:layout_marginStart="@dimen/small_margin"
+            android:src="@drawable/bedrooms"
+            app:layout_constraintStart_toEndOf="@+id/bedroom"
+            app:layout_constraintTop_toTopOf="@+id/bedroom" />
+
+        <TextView
+            android:id="@+id/bathroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:layout_marginEnd="@dimen/small_margin"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:layout_marginStart="@dimen/medium_margin"
+            android:text="3"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="@dimen/second_text_size"
+            app:layout_constraintStart_toEndOf="@+id/bedroom_icon"
+            app:layout_constraintTop_toTopOf="@+id/bedroom" />
+
+        <ImageView
+            android:id="@+id/bathroom_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/medium_margin"
+            android:layout_marginStart="@dimen/small_margin"
+            android:src="@drawable/bathrooms"
+            app:layout_constraintStart_toEndOf="@+id/bathroom"
+            app:layout_constraintTop_toTopOf="@+id/bedroom" />
+
+        <TextView
+            android:id="@+id/carpark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:layout_marginEnd="@dimen/small_margin"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:layout_marginStart="@dimen/medium_margin"
+            android:text="2"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="@dimen/second_text_size"
+            app:layout_constraintStart_toEndOf="@+id/bathroom_icon"
+            app:layout_constraintTop_toTopOf="@+id/bedroom" />
+
+        <ImageView
+            android:id="@+id/carpark_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/medium_margin"
+            android:layout_marginStart="@dimen/small_margin"
+            android:src="@drawable/carparking"
+            app:layout_constraintStart_toEndOf="@+id/carpark"
+            app:layout_constraintTop_toTopOf="@+id/bedroom" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

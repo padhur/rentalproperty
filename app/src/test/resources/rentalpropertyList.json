@@ -1,0 +1,364 @@
+{
+  "data":[
+    {
+      "id":1,
+      "is_premium": false,
+      "state":"private",
+      "title":"Property Title 1",
+      "bedrooms":1,
+      "bathrooms":1,
+      "carspots":1,
+      "description":"Majestic family home & village lifestyle\r\nWith stately street presence, grand proportions and retro touches, the narrative is richly layered here. Add value via DA-approved plans or enjoy as-is, moments from Centennial Park, Oxford and Queen streets.\r\n\r\nHighlights\r\n* Heritage brickwork, chic entry w/ stoop\r\n* Grand proportions, high clgs, archways \r\n* Wood flrs, plantation shutters, f/plcs\r\n* Stylish updates, retro touches & nooks\r\n* Oversized bedrooms, master w/ ensuite\r\n* Neat main bathroom, sep. tub & shower\r\n* Int. laundry + store, utility room & WC\r\n* N-facing c/yard, DA approval to extend\r\n* RLA plus potential for parking (STCA)\r\n* Family-friendly, walk to village lifestyle",
+      "price":1300000.00,
+      "owner":{
+        "id":11,
+        "first_name":"John",
+        "last_name":"Doe",
+        "email":"dev@sentia.com.au",
+        "avatar":{
+          "url":"http://www.sentia.com.au/uploads/user/profile_photo/1/profile.png",
+          "small":{
+            "url":"http://www.sentia.com.au/uploads/user/profile_photo/1/profile.png"
+          },
+          "medium":{
+            "url":"http://www.sentia.com.au/uploads/user/profile_photo/1/profile.png"
+          },
+          "large":{
+            "url":"http://www.sentia.com.au/uploads/user/profile_photo/1/profile.png"
+          },
+          "profile":{
+            "url":"http://www.sentia.com.au/uploads/user/profile_photo/1/profile.png"
+          }
+        }
+      },
+      "location":{
+        "id":1,
+        "address_1":"71 York Street",
+        "address_2":"Level 2, Suite 201, SENTIA",
+        "suburb":"Sydney",
+        "state":"New South Wales",
+        "postcode":"2000",
+        "country":"Australia",
+        "latitude":-33.2719708228076,
+        "longitude":151.403204079771,
+        "full_address":"Sydney, NEW SOUTH WALES, 2000, Australia"
+      },
+      "photo":{
+        "id":1047,
+        "default":false,
+        "image":{
+          "url":"https://i.pinimg.com/originals/4c/9b/7b/4c9b7b5d3104bc2ab4e98456279285d8.png",
+          "small":{
+            "url":"https://i.pinimg.com/originals/4c/9b/7b/4c9b7b5d3104bc2ab4e98456279285d8.png"
+          },
+          "medium":{
+            "url":"https://i.pinimg.com/originals/4c/9b/7b/4c9b7b5d3104bc2ab4e98456279285d8.png"
+          },
+          "large":{
+            "url":"https://i.pinimg.com/originals/4c/9b/7b/4c9b7b5d3104bc2ab4e98456279285d8.png"
+          }
+        }
+      }
+    },
+    {
+      "id":1,
+      "is_premium": false,
+      "state":"private",
+      "title":"Property Title 2",
+      "bedrooms":1,
+      "bathrooms":1,
+      "carspots":1,
+      "description":"Majestic family home & village lifestyle\r\nWith stately street presence, grand proportions and retro touches, the narrative is richly layered here. Add value via DA-approved plans or enjoy as-is, moments from Centennial Park, Oxford and Queen streets.\r\n\r\nHighlights\r\n* Heritage brickwork, chic entry w/ stoop\r\n* Grand proportions, high clgs, archways \r\n* Wood flrs, plantation shutters, f/plcs\r\n* Stylish updates, retro touches & nooks\r\n* Oversized bedrooms, master w/ ensuite\r\n* Neat main bathroom, sep. tub & shower\r\n* Int. laundry + store, utility room & WC\r\n* N-facing c/yard, DA approval to extend\r\n* RLA plus potential for parking (STCA)\r\n* Family-friendly, walk to village lifestyle",
+      "price":1300000.00,
+      "owner":{
+        "id":11,
+        "first_name":"Cindy",
+        "last_name":"Rodd",
+        "email":"dev@sentia.com.au",
+        "avatar":{
+          "url":"https://static.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+          "small":{
+            "url":"https://static.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+          },
+          "profile":{
+            "url":"https://static.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+          }
+        }
+      },
+      "location":{
+        "id":1,
+        "address_1":"71 York Street",
+        "address_2":"Level 2, Suite 201, SENTIA",
+        "suburb":"Sydney",
+        "state":"New South Wales",
+        "postcode":"2000",
+        "country":"Australia",
+        "latitude":-33.2719708228076,
+        "longitude":151.403204079771,
+        "full_address":"Sydney, NEW SOUTH WALES, 2000, Australia"
+      },
+      "photo":{
+        "id":1047,
+        "default":false,
+        "image":{
+          "url":"https://static.pexels.com/photos/32870/pexels-photo.jpg",
+          "small":{
+            "url":"https://static.pexels.com/photos/32870/pexels-photo.jpg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/32870/pexels-photo.jpg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/32870/pexels-photo.jpg"
+          }
+        }
+      }
+    },
+    {
+      "id":1,
+      "is_premium": true,
+      "state":"private",
+      "title":"Property Title 3",
+      "bedrooms":2,
+      "bathrooms":3,
+      "carspots":4,
+      "description":"Majestic family home & village lifestyle\r\nWith stately street presence, grand proportions and retro touches, the narrative is richly layered here. Add value via DA-approved plans or enjoy as-is, moments from Centennial Park, Oxford and Queen streets.\r\n\r\nHighlights\r\n* Heritage brickwork, chic entry w/ stoop\r\n* Grand proportions, high clgs, archways \r\n* Wood flrs, plantation shutters, f/plcs\r\n* Stylish updates, retro touches & nooks\r\n* Oversized bedrooms, master w/ ensuite\r\n* Neat main bathroom, sep. tub & shower\r\n* Int. laundry + store, utility room & WC\r\n* N-facing c/yard, DA approval to extend\r\n* RLA plus potential for parking (STCA)\r\n* Family-friendly, walk to village lifestyle",
+      "price":1300000.00,
+      "owner":{
+        "id":11,
+        "first_name":"Andy",
+        "last_name":"Hunt",
+        "email":"dev@sentia.com.au",
+        "avatar":{
+          "url":"https://static.pexels.com/photos/193355/pexels-photo-193355.jpeg",
+          "small":{
+            "url":"https://static.pexels.com/photos/193355/pexels-photo-193355.jpeg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/193355/pexels-photo-193355.jpeg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/193355/pexels-photo-193355.jpeg"
+          },
+          "profile":{
+            "url":"https://static.pexels.com/photos/193355/pexels-photo-193355.jpeg"
+          }
+        }
+      },
+      "location":{
+        "id":1,
+        "address_1":"71 York Street",
+        "address_2":"Level 2, Suite 201, SENTIA",
+        "suburb":"Sydney",
+        "state":"New South Wales",
+        "postcode":"2000",
+        "country":"Australia",
+        "latitude":-33.2719708228076,
+        "longitude":151.403204079771,
+        "full_address":"Sydney, NEW SOUTH WALES, 2000, Australia"
+      },
+      "photo":{
+        "id":1047,
+        "default":false,
+        "image":{
+          "url":"https://static.pexels.com/photos/106399/pexels-photo-106399.jpeg",
+          "small":{
+            "url":"https://static.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+          }
+        }
+      }
+    },
+    {
+      "id":1,
+      "is_premium": false,
+      "state":"private",
+      "title":"Property Title 4",
+      "bedrooms":1,
+      "bathrooms":1,
+      "carspots":1,
+      "description":"Majestic family home & village lifestyle\r\nWith stately street presence, grand proportions and retro touches, the narrative is richly layered here. Add value via DA-approved plans or enjoy as-is, moments from Centennial Park, Oxford and Queen streets.\r\n\r\nHighlights\r\n* Heritage brickwork, chic entry w/ stoop\r\n* Grand proportions, high clgs, archways \r\n* Wood flrs, plantation shutters, f/plcs\r\n* Stylish updates, retro touches & nooks\r\n* Oversized bedrooms, master w/ ensuite\r\n* Neat main bathroom, sep. tub & shower\r\n* Int. laundry + store, utility room & WC\r\n* N-facing c/yard, DA approval to extend\r\n* RLA plus potential for parking (STCA)\r\n* Family-friendly, walk to village lifestyle",
+      "price":1300000.00,
+      "owner":{
+        "id":11,
+        "first_name":"Mark",
+        "last_name":"Young",
+        "email":"dev@sentia.com.au",
+        "avatar":{
+          "url":"https://static.pexels.com/photos/372042/pexels-photo-372042.jpeg",
+          "small":{
+            "url":"https://static.pexels.com/photos/372042/pexels-photo-372042.jpeg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/372042/pexels-photo-372042.jpeg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/372042/pexels-photo-372042.jpeg"
+          },
+          "profile":{
+            "url":"https://static.pexels.com/photos/372042/pexels-photo-372042.jpeg"
+          }
+        }
+      },
+      "location":{
+        "id":1,
+        "address_1":"71 York Street",
+        "address_2":"Level 2, Suite 201, SENTIA",
+        "suburb":"Sydney",
+        "state":"New South Wales",
+        "postcode":"2000",
+        "country":"Australia",
+        "latitude":-33.2719708228076,
+        "longitude":151.403204079771,
+        "full_address":"Sydney, NEW SOUTH WALES, 2000, Australia"
+      },
+      "photo":{
+        "id":1047,
+        "default":false,
+        "image":{
+          "url":"https://static.pexels.com/photos/534182/pexels-photo-534182.jpeg",
+          "small":{
+            "url":"https://static.pexels.com/photos/534182/pexels-photo-534182.jpeg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/534182/pexels-photo-534182.jpeg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/534182/pexels-photo-534182.jpeg"
+          }
+        }
+      }
+    },
+    {
+      "id":1,
+      "is_premium": false,
+      "state":"private",
+      "title":"Property Title 5",
+      "bedrooms":6,
+      "bathrooms":7,
+      "carspots":4,
+      "description":"Majestic family home & village lifestyle\r\nWith stately street presence, grand proportions and retro touches, the narrative is richly layered here. Add value via DA-approved plans or enjoy as-is, moments from Centennial Park, Oxford and Queen streets.\r\n\r\nHighlights\r\n* Heritage brickwork, chic entry w/ stoop\r\n* Grand proportions, high clgs, archways \r\n* Wood flrs, plantation shutters, f/plcs\r\n* Stylish updates, retro touches & nooks\r\n* Oversized bedrooms, master w/ ensuite\r\n* Neat main bathroom, sep. tub & shower\r\n* Int. laundry + store, utility room & WC\r\n* N-facing c/yard, DA approval to extend\r\n* RLA plus potential for parking (STCA)\r\n* Family-friendly, walk to village lifestyle",
+      "price":1300000.00,
+      "owner":{
+        "id":11,
+        "first_name":"Robert",
+        "last_name":"Guss",
+        "email":"dev@sentia.com.au",
+        "avatar":{
+          "url":"https://static.pexels.com/photos/45882/man-crazy-funny-dude-45882.jpeg",
+          "small":{
+            "url":"https://static.pexels.com/photos/45882/man-crazy-funny-dude-45882.jpeg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/45882/man-crazy-funny-dude-45882.jpeg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/45882/man-crazy-funny-dude-45882.jpeg"
+          },
+          "profile":{
+            "url":"https://static.pexels.com/photos/45882/man-crazy-funny-dude-45882.jpeg"
+          }
+        }
+      },
+      "location":{
+        "id":1,
+        "address_1":"71 York Street",
+        "address_2":"Level 2, Suite 201, SENTIA",
+        "suburb":"Sydney",
+        "state":"New South Wales",
+        "postcode":"2000",
+        "country":"Australia",
+        "latitude":-33.2719708228076,
+        "longitude":151.403204079771,
+        "full_address":"Sydney, NEW SOUTH WALES, 2000, Australia"
+      },
+      "photo":{
+        "id":1047,
+        "default":false,
+        "image":{
+          "url":"https://static.pexels.com/photos/277667/pexels-photo-277667.jpeg",
+          "small":{
+            "url":"https://static.pexels.com/photos/277667/pexels-photo-277667.jpeg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/277667/pexels-photo-277667.jpeg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/277667/pexels-photo-277667.jpeg"
+          }
+        }
+      }
+    },
+    {
+      "id":1,
+      "is_premium": false,
+      "state":"private",
+      "title":"Property Title 6",
+      "bedrooms":2,
+      "bathrooms":2,
+      "carspots":2,
+      "description":"Majestic family home & village lifestyle\r\nWith stately street presence, grand proportions and retro touches, the narrative is richly layered here. Add value via DA-approved plans or enjoy as-is, moments from Centennial Park, Oxford and Queen streets.\r\n\r\nHighlights\r\n* Heritage brickwork, chic entry w/ stoop\r\n* Grand proportions, high clgs, archways \r\n* Wood flrs, plantation shutters, f/plcs\r\n* Stylish updates, retro touches & nooks\r\n* Oversized bedrooms, master w/ ensuite\r\n* Neat main bathroom, sep. tub & shower\r\n* Int. laundry + store, utility room & WC\r\n* N-facing c/yard, DA approval to extend\r\n* RLA plus potential for parking (STCA)\r\n* Family-friendly, walk to village lifestyle",
+      "price":1300000.00,
+      "owner":{
+        "id":11,
+        "first_name":"Jane",
+        "last_name":"Doe",
+        "email":"dev@sentia.com.au",
+        "avatar":{
+          "url":"https://static.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+          "small":{
+            "url":"https://static.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+          },
+          "profile":{
+            "url":"https://static.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+          }
+        }
+      },
+      "location":{
+        "id":1,
+        "address_1":"71 York Street",
+        "address_2":"Level 2, Suite 201, SENTIA",
+        "suburb":"Sydney",
+        "state":"New South Wales",
+        "postcode":"2000",
+        "country":"Australia",
+        "latitude":-33.2719708228076,
+        "longitude":151.403204079771,
+        "full_address":"Sydney, NEW SOUTH WALES, 2000, Australia"
+      },
+      "photo":{
+        "id":1047,
+        "default":false,
+        "image":{
+          "url":"https://static.pexels.com/photos/164349/pexels-photo-164349.jpeg",
+          "small":{
+            "url":"https://static.pexels.com/photos/164349/pexels-photo-164349.jpeg"
+          },
+          "medium":{
+            "url":"https://static.pexels.com/photos/164349/pexels-photo-164349.jpeg"
+          },
+          "large":{
+            "url":"https://static.pexels.com/photos/164349/pexels-photo-164349.jpeg"
+          }
+        }
+      }
+    }
+  ]
+}

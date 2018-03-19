@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">House RentalProperty</string>
+    <string name="title_rentalproperty_details">RentalProperty Details</string>
+    <string name="could_not_load_rentalproperty_data">Could not load rental property data</string>
+</resources>
